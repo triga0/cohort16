@@ -1,0 +1,361 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY BLOG | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">MY BLOG VIEW</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="index.HTML" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="post.html" class="list-link">Blog list</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="post.html" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="post.html" class="list-link">classroom</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="about.html" class="list-link">About me</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="contact.html" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="login.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item ">
+                        <a href="login.html" class="list-link">login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">MY REFACTORY BLOG</span>
+                    </h3>
+                    <span class="headline-description"> Refactory is a Tech skilling Academy. They are the industry's blueprint for hiring software talent.</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="https://images.pexels.com/photos/7438102/pexels-photo-7438102.jpeg?auto=com" alt="" class="article-image">
+                    <span class="article-category">DAY ONE (1)</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            
+                            <span class="article-data-spacer"></span>
+                            <span>By    MR WILFRED</span>
+                        </div>
+
+                        <h3 class="title article-title">WE HAD ORINTATION</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="https://media.istockphoto.com/id/1923676992/photo/software-development-flowchart-diagram-showing-branching-merging-pull-request-commit-master.jpg?s=612x612&w=0&k=20&c=wX_UwNdNFBbx-m5fFSQbhpUSK6Sg4CvlDo6Ot91SpuE=" alt="" class="article-image">
+                    <span class="article-category">DAY TWO</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span></span>
+                            <span class="article-data-spacer"></span>
+                            <span>LEAD BY SAMSON KAPEYI</span>
+                        </div>
+
+                        <h3 class="title article-title">SOFTWARE DEV'T 001</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-3">
+                    <img src="https://images.pexels.com/photos/5598287/pexels-photo-5598287.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" class="article-image">
+                    <span class="article-category">DAY TWO</span>
+
+                    <div class="article-data-container">
+
+                      
+                        <span> BY JULIA NASUBUGA</span>
+                        <h3 class="title article-title">PERSONAL DEV'T , LEADERSHIP</h3>  
+                       
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">BLOG LIST </h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="https://images.pexels.com/photos/6551415/pexels-photo-6551415.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>17 june 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By Julia</span>
+                        </div>
+
+                        <h3 class="title article-title">Leadership week 1</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="https://images.pexels.com/photos/2399840/pexels-photo-2399840.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>17 june 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By samson</span>
+                        </div>
+
+                        <h3 class="title article-title">Software Dev't week 1</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="https://media.istockphoto.com/id/962701842/photo/the-same-old-thinking-the-same-old-results.jpg?b=1&s=612x612&w=0&k=20&c=If4-ApprHWUioiUXL60CERungf3LIlVfv0Nzrav75io=" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>24 June  2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>by Julia</span>
+                        </div>
+
+                        <h3 class="title article-title">Leadership week 2</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>24 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By samson</span>
+                        </div>
+
+                        <h3 class="title article-title">Software week 2 </h3>
+
+                    </div>
+                </a>
+
+                <a h
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+   
+
+    
+   
+
+    
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="CONTACT">CONTACT</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">BEST QUOTE</h6>
+                <p class="newsletter-description">Information technology and business are becoming inextricably interwoven. I don't think anybody can talk meaningfully about one without the talking about the other.</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="By    BILL GATES">
+                    
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">SOCAL MEDIA</h2>
+                </a>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy; @BRIAN. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">SOFTWARE TOPICS </h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Git Hub</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">HTML</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">STYLE CSS</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">BOOTSTRAP</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+         
+
+            <div>
+                <h6 class="title footer-title">Leadership TOPICS</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">EFFECTIVE HABITS</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">HABIT 1</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">HABIT 2</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">HABIT 3</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">HABIT 4</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+   
+</body>
+</html>
